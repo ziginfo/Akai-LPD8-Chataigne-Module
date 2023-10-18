@@ -4,8 +4,8 @@
    "path":"Hardware",
    "version":"1.0.0",
    "description":"MIDI Module for the Akai LPD8 MIDI Controller",
-   "url":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module",
-   "downloadURL":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module/archive/refs/heads/main.zip",
+   "url":"",
+   "downloadURL":"",
    "hasInput":true,
    "hasOutput":true,
    "hideDefaultCommands":true,
@@ -27,18 +27,30 @@
    "scripts":[  "lpd8.js"  ],
    
    "values":{
+   
+   		"Knobs":{
+            "type":"Container",
+            "collapsed":true,    
+            "Knob 1":{"type":"Float","min":0,"max":127},
+            "Knob 2":{"type":"Float","min":0,"max":127},
+            "Knob 3":{"type":"Float","min":0,"max":127},
+            "Knob 4":{"type":"Float","min":0,"max":127},
+            "Knob 5":{"type":"Float","min":0,"max":127},
+            "Knob 6":{"type":"Float","min":0,"max":127},
+            "Knob 7":{"type":"Float","min":0,"max":127},
+            "Knob 8":{"type":"Float","min":0,"max":127} },
    		
       	"Pads Note":{
          	"type":"Container",
          	"collapsed":true,    
-            "Pad 1":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 2":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 3":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 4":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 5":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 6":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 7":   { "type":"Boolean", "min":0,"max":1},
-            "Pad 8":   { "type":"Boolean", "min":0,"max":1}  },
+            "Pad 1":   { "type":"Integer", "min":0,"max":127},
+            "Pad 2":   { "type":"Integer", "min":0,"max":127},
+            "Pad 3":   { "type":"Integer", "min":0,"max":127},
+            "Pad 4":   { "type":"Integer", "min":0,"max":127},
+            "Pad 5":   { "type":"Integer", "min":0,"max":127},
+            "Pad 6":   { "type":"Integer", "min":0,"max":127},
+            "Pad 7":   { "type":"Integer", "min":0,"max":127},
+            "Pad 8":   { "type":"Integer", "min":0,"max":127}  },
             
         "Pads Program":{
          	"type":"Container",
@@ -51,19 +63,8 @@
             "Pad PC 5":   { "type":"Integer", "min":0,"max":127},
             "Pad PC 6":   { "type":"Integer", "min":0,"max":127},
             "Pad PC 7":   { "type":"Integer", "min":0,"max":127},
-            "Pad PC 8":   { "type":"Integer", "min":0,"max":127}  },
+            "Pad PC 8":   { "type":"Integer", "min":0,"max":127}  }
             
-        "Knobs":{
-            "type":"Container",
-            "collapsed":true,    
-            "Knob 1":{"type":"Float","min":0,"max":127},
-            "Knob 2":{"type":"Float","min":0,"max":127},
-            "Knob 3":{"type":"Float","min":0,"max":127},
-            "Knob 4":{"type":"Float","min":0,"max":127},
-            "Knob 5":{"type":"Float","min":0,"max":127},
-            "Knob 6":{"type":"Float","min":0,"max":127},
-            "Knob 7":{"type":"Float","min":0,"max":127},
-            "Knob 8":{"type":"Float","min":0,"max":127} }
    },
    
    "commands":
