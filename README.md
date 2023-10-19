@@ -1,9 +1,7 @@
 # Akai-LPD8-Chataigne-Module
 
 this controls the Akai's LPD8 by MIDI
-
 in the Values Section, you'll find the 8 knobs and the 8 Pads
-
 use the "Set Offset" in the Parameter section to get the right Pad Note Numbers shown in the Values-Section
 
 this depends of your User-Configuration of the LPD8's Pads
