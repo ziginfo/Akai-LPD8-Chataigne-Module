@@ -18,7 +18,7 @@ Programm-Change response will be added in a later version....
 
 added Program-Change-Pads and First-Controler-Value
 
-to get the feedback right the 8 controlers (Knobs or Pads) are supposed to  follow each other regarding their Note, PC or CC Values
+to get the feedback right, the 8 controlers (Knobs or Pads) are supposed to  follow each other regarding their Note, PC or CC Values
 and reference-value is 0 !
 
 just hit the first Pad or turn the first Knob and look at the First-Controler-Value...(its the CC, PC or/and Note Number)
