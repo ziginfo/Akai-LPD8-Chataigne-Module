@@ -1,8 +1,8 @@
 {
    "name":"Akai LPD8",
    "type":"MIDI",
-   "path":"Hardware",
-   "version":"1.0.0",
+   "path":"MIDI Control",
+   "version":"1.2",
    "description":"MIDI Module for the Akai LPD8 MIDI Controller",
    "url":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module",
    "downloadURL":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module/archive/refs/heads/main.zip",
@@ -27,6 +27,13 @@
    "scripts":[  "lpd8.js"  ],
    
    "values":{
+   
+   		"First Controler Value":{
+            "type":"Container",
+            "collapsed":true,    
+            "Knob":{"type":"Integer","min":0,"max":127},
+            "Pad Note":{"type":"Integer","min":0,"max":127},
+            "Pad PC":{"type":"Integer","min":0,"max":127}},
    
    		"Knobs":{
             "type":"Container",
@@ -54,8 +61,7 @@
             
         "Pads Program":{
          	"type":"Container",
-         	"collapsed":true, 
-         	"Program":   { "type":"Integer", "min":0,"max":127},   
+         	"collapsed":true,   
             "Pad PC 1":   { "type":"Integer", "min":0,"max":127},
             "Pad PC 2":   { "type":"Integer", "min":0,"max":127},
             "Pad PC 3":   { "type":"Integer", "min":0,"max":127},
@@ -69,9 +75,8 @@
    
    "commands":
 	{
+	
+	
 		
-	}
-   
-   
-  
+	}  
 }
