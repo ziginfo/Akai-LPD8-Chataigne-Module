@@ -4,9 +4,9 @@
 
 function init() {
 	
-	paramCcOffset = local.parameters.addIntParameter("Set CC Offset", "MIDI CC Offset", ccoffset);
-	paramPitchOffset = local.parameters.addIntParameter("Set Note Offset", "MIDI-Notes Offset", offset);
-	paramPcOffset = local.parameters.addIntParameter("Set PC Offset", "MIDI PC Offset", pcoffset);
+	paramCcOffset = local.parameters.addIntParameter("Set CC Offset", "MIDI CC Offset", 1,0,127);
+	paramPitchOffset = local.parameters.addIntParameter("Set Note Offset", "MIDI-Notes Offset", 36,0,127);
+	paramPcOffset = local.parameters.addIntParameter("Set PC Offset", "MIDI PC Offset", 0,0,127);
 }
 
 
