@@ -21,9 +21,9 @@ added Program-Change-Pads and First-Controler-Value
 to get the feedback right, the 8 controlers (Knobs or Pads) are supposed to  follow each other regarding their Note, PC or CC Values
 and reference-value is 0 !
 
-just hit the first Pad or turn the first Knob and look at the First-Controler-Value...(=> CC, PC or/and Note Number)
+just hit the first Pad or turn the first Knob and look at the First-Controler-Value...(these are the CC, PC or/and Note Number)
 
-then set the Offset-Value (in the top of the Parameters) with this "First-Controler-Value" and you'll get the feedback resynced to the Pads and the Knobs 1 to 8....
+you should now set the Offset-Value (in the top of the Parameters) with this "First-Controler-Value" and you'll get the feedback resynced to the Pads and the Knobs 1 to 8....
 
 be aware that when you are loading the module all the Offsets are set to 0, but the real Values on the LPD8 Pads and Knobs are depending of the settings or the presets !
 
