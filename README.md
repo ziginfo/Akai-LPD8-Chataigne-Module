@@ -25,9 +25,9 @@ just hit the first Pad or turn the first Knob and look at the First-Controler-Va
 
 you should now set the Offset-Value (in the top of the Parameters) with this "First-Controler-Value" and you'll get the feedback resynced to the Pads and the Knobs 1 to 8....
 
-be aware that when you are loading the module all the Offsets are set to 0, but the real Values on the LPD8 Pads and Knobs are depending of the settings or the presets !
+when you are loading the module all the Offsets are set to the values of Preset-1 (see below), but the real Values on the LPD8 Pads and Knobs may be different and depend on the actual settings or the presets !
 
-default values for Preset1 are :
+default values for Preset-1 are :
 1 (to8) for the Knobs; 36 (to 43) for the Note-Pads , and 0 (to 7) for the PC-Pads (and there are 4 different (and freely configurable) Presets available on the LPD8)
 
 and the Pads can send also CC-Messages (by defalt on Channel1 as do the Knobs !); but I did not integrate them into the Pad-Section as this would create confusion with the Knobs !!
