@@ -1,7 +1,7 @@
 {
    "name":"Akai LPD8",
    "type":"MIDI",
-   "path":"MIDI Control",
+   "path":"Hardware",
    "version":"1.2",
    "description":"MIDI Module for the Akai LPD8 MIDI Controller",
    "url":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module",
