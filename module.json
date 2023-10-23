@@ -8,7 +8,7 @@
    "downloadURL":"https://github.com/ziginfo/Akai-LPD8-Chataigne-Module/archive/refs/heads/main.zip",
    "hasInput":true,
    "hasOutput":true,
-   "hideDefaultCommands":true,
+   "hideDefaultCommands":false,
 
    "parameters":{  },
    
